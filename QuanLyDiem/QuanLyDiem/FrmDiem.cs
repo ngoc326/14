@@ -200,10 +200,11 @@ namespace QuanLyDiem
                     kt1();
                 }
                 cell();
+                GridViewDiem.ReadOnly = false;
             }
             else if (btnQuayLai.Enabled == false && btnDanhSach.Enabled == true)
             {
-
+                GridViewDiem.ReadOnly = true;
             }
         }
        
